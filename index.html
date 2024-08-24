@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajiv Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">RAJIV PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                <h1>WELCOME TO MY PERSONAL PORTFOLIO</h1>
+                <p>HI MY NAME IS <span class="purple">RAJIV</span></p>
+                <div>I AM A </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="me4.jpg" alt="Rajiv">
+            </div>
+        </section>
+
+        <section id="about" class="aboutSection">
+            <h1>About Me</h1>
+            <div class="aboutContent">
+                <div class="aboutPhoto">
+                    <img src="me11.jpg" alt="Rajiv">
+                </div>
+                <div class="aboutTextBox">
+                    <p>
+                        I'm Rajiv, a passionate web developer and designer with a keen interest in creating dynamic and visually appealing web applications. Alongside my development work, I run a personal vlog where I share insights and tutorials on web development and design trends.
+                    </p>
+                    <p>
+                        Check out my vlog <a href="https://yourvloglink.com" target="_blank">here</a>.
+                    </p>
+                    <a href="resume.pdf" download class="resumeLink">Download My Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projectSection">
+            <h1>My Projects</h1>
+            <div class="projectBox">
+                <div class="project">
+                    <a href="https://github.com/Rajiv808/CALCULATOR-CODSOFT_TASK_3">
+                        <img src="pro1.jpg" alt="CALCULATOR"><b>click to view</b>
+                    </a>
+                    <h3>CALCULATOR</h3>
+                    <p>Created a fully functional calculator with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Rajiv808/Rajiv808-LANDING_PAGE_CODSOFT_TASK_1">
+                        <img src="pro2.jpg" alt="LANDING WEBPAGE"><b>click to view</b>
+                    </a>
+                    <h3>LANDING WEBPAGE</h3>
+                    <p>Created a landing website with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Rajiv808/Rajiv808-LANDING_PAGE_CODSOFT_TASK_1">
+                        <img src="pro3.jpg" alt="PERSONAL PORTFOLIO"><b>click to view</b>
+                    </a>
+                    <h3>PERSONAL PORTFOLIO</h3>
+                    <p>Created a personal portfolio with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skillsSection">
+            <h1>My Skills</h1>
+            <div class="skillsBox">
+                <div class="skill">
+                    <img src="html.png" alt="HTML Icon">
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <img src="css.png" alt="CSS Icon">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="python.png" alt="Python Icon">
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <img src="java.png" alt="Java Icon">
+                    <span>Java</span>
+                </div>
+                <div class="skill">
+                    <img src="kotlin.png" alt="Kotlin Icon">
+                    <span>Kotlin</span>
+                </div>
+                <div class="skill">
+                    <img src="php.png" alt="PHP Icon">
+                    <span>PHP</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contactSection">
+            <h1>Contact Me</h1>
+            <div class="contactContent">
+                <form action="your_form_submission_link" method="POST">
+                    <div class="formGroup">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="formGroup">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="formGroup">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submitButton">Send Message</button>
+                </form>
+                
+            </div>
+        </section>
+
+       
+        <footer class="footer_section">
+            <div class="container">
+                <p>&copy; 2024 RAJIV's PORTFOLIO. All Rights Reserved.</p>
+                <ul class="footer_socials">
+                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
